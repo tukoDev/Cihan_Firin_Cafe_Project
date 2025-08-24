@@ -1,6 +1,6 @@
 # Cihan Fırın Cafe Project
 
-Bu proje bir fırın/cafe sitesi için geliştirilmiş modern bir web uygulamasıdır.
+Bu proje bir fırın/cafe sitesi için geliştirilmiş yapay zeka destekli modern bir web uygulamasıdır.
 
 ## 🚀 Live Demo
 
