@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cihan Fırın Pastane Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-coffee"></i>
+                <h1>Cihan Fırın Pastane Cafe</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Ana Sayfa</a>
+                <a href="menu.html" class="nav-link">Menü</a>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Hoş Geldiniz</h2>
+                <p>Taze kahveler, lezzetli pastalar ve tatlılar</p>
+                <a href="menu.html" class="cta-button">
+                    <i class="fas fa-utensils"></i>
+                    Menüyü Görüntüle
+                </a>
+            </div>
+            <div class="hero-image">
+                <div class="cafe-image">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOeKjYQPQilj8cCRdc9YVx-c1JhhAmkWvMJ4nCq=w408-h306-k-no" alt="Cihan Fırın Pastane Cafe" class="cafe-photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-coffee"></i>
+                <h3>Taze Kahveler</h3>
+                <p>En kaliteli çekirdeklerden özenle hazırlanmış kahveler</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Ev Yapımı Pastalar</h3>
+                <p>Geleneksel tariflerle hazırlanan taze pastalar</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Sevgiyle Hazırlanır</h3>
+                <p>Her ürünümüz sevgi ve özenle hazırlanır</p>
+            </div>
+        </section>
+
+        <!-- Feedback Section -->
+        <section class="feedback">
+            <h3>Dilek, Öneri ve Şikayetleriniz</h3>
+            <p>Görüşleriniz bizim için çok değerli. Deneyimlerinizi paylaşın, sizi daha iyi hizmet verebilmek için dinliyoruz.</p>
+            
+            <form class="feedback-form" id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Adınız Soyadınız *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefon Numaranız</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="type">Mesaj Türü *</label>
+                    <select id="type" name="type" required>
+                        <option value="">Seçiniz</option>
+                        <option value="dilek">Dilek</option>
+                        <option value="oneri">Öneri</option>
+                        <option value="sikayet">Şikayet</option>
+                        <option value="tesekkur">Teşekkür</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+                
+
+                
+                <div class="form-group">
+                    <label for="message">Mesajınız *</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Lütfen detaylı olarak yazınız..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <span class="checkmark"></span>
+                        Kişisel verilerimin işlenmesine izin veriyorum *
+                    </label>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    <i class="fas fa-paper-plane"></i>
+                    Gönder
+                </button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h3>İletişim</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Denizköşkler, Yanyol (Londra Asfaltı) Caddesi No 111 B, 34315 Avcılar/İstanbul</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>7/24 Açık</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-star"></i>
+                    <span>Google Maps'te 4.5+ yıldız</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-external-link-alt"></i>
+                    <a href="https://www.google.com/maps/place/Cihan+F%C4%B1r%C4%B1n+Pastane+Cafe/@40.9787407,28.7309521,17z/data=!3m1!4b1!4m6!3m5!1s0x14caa19f9a795419:0x2c846d34a0f52e16!8m2!3d40.9787367!4d28.733527!16s%2Fg%2F11gy2lrmvz?entry=ttu" target="_blank" class="map-link">
+                        Haritada Görüntüle
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Cihan Fırın Pastane Cafe. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
