@@ -4,7 +4,7 @@ Bu proje bir fırın/cafe sitesi için geliştirilmiş yapay zeka destekli moder
 
 ## 🚀 Live Demo
 
-**[Siteyi Görüntüle](https://vocal-dango-97d6f5.netlify.app/)**
+**[Siteyi Görüntüle](https://www.cihanfirin.shop/)**
 
 ## 🛠️ Teknolojiler
 
